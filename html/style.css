@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    position: absolute;
+    left: 10px;
+    width: 250px;
+    height: 250px;
+    background-image: url("imgs/logo3.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+#content {
+    margin: 10px;
+
+    font-family: arvoregular, "Helvetica Neue", arial;
+    color: #333;
+    font-weight: 0;
+    font-size: 0.9em;
+    line-height: 1.5em;
+
+}
+
+#header {
+    padding-left: 280px;
+}
+
+#nav {
+    padding-top: 140px;
+    display: flex;
+    list-style: none;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    display: block;
+    height: 100%;
+}
+
+#nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+#nav li {
+    flex-grow: 1;
+    height: 2em;
+    flex-basis: auto;
+    valign: middle;
+}
+
+#main {
+
+}
+
+#main p {
+    margin: 15px 0px;
+}
+
+#intro {
+    padding-left: 280px;
+    background-color: #eaeaea;
+}
+
+#columns {
+    display: flex;
+    background-color: #F8F2D7;
+}
+
+#leftcol {
+    width: 250px;
+    margin: 0px 10px 0px 20px;
+    flex: 1 0 auto;
+}
+
+#leftcol .section {
+    margin-bottom: 40px;
+}
+#leftcol h2 {
+    margin: 20px 0px;
+}
+
+#rightcol {
+    flex: 1 1 auto;
+}
+
+.entry {
+}
+
+.entry h1 {
+    line-height: 2em;
+}
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('fonts/arvo-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'arvobold';
+    src: url('fonts/arvo-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arvoitalic';
+    src: url('fonts/arvo-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+
+}

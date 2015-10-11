@@ -1,2 +1,2 @@
 # website
-Miami HUG Web site
+Miami Hadoop User Group Web site
