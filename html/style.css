@@ -10,6 +10,7 @@ a {
 
 p {
     line-height: 1.5em;
+    text-align: justify;
 }
 
 #logo {
@@ -33,6 +34,7 @@ p {
 
 #header {
     padding-left: 260px;
+    max-width: 1200px;
 }
 
 #nav {
@@ -73,13 +75,18 @@ p {
     background-color: #eaeaea;
 }
 
+#intro p {
+    max-width: 1200px;
+}
+
 #columns {
     display: flex;
     background-color: #F8F2D7;
 }
 
 #leftcol {
-    width: 230px;
+    min-width: 230px;
+    max-width: 230px;
     margin: 0px 10px 0px 20px;
     flex: 1 0 auto;
     padding-top: 15px;
@@ -104,6 +111,7 @@ p {
 }
 
 .entry {
+    max-width: 1200px;
 }
 
 .entry h1 {
